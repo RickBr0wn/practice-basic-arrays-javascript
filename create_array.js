@@ -23,7 +23,7 @@ console.log(arr[arr.length-1]);
 arr.push('extra');
 
 // 6. Use an array method to add an element to the BEGINNING of the array.
-arr.splice(0, 0, 'extra');
+arr.unshift('extra');
 
 /* 7. Log all of the elements in the array as a single string using the array .join() method */
 joined = arr.join(", ");
